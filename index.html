@@ -2,18 +2,237 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Personal Portfolio" />
-    <meta name="keywords" content="Game,Developer,Portfolio,Programmer" />
+    <meta name="description" content="Personal Portfolio of Arnau Falgueras, a Game Programmer and Developer" />
+    <meta name="keywords" content="Game,Developer,Portfolio,Programmer, Arnau, Falgueras" />
     <meta name="author" content="Arnau Falgueras Garcia de Atocha" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arnau Falgueras Garcia de Atocha | Game Developer - Game Programmer</title>
+    <title>Arnau Falgueras's Portfolio | Game Developer/Programmer</title>
     <link rel="stylesheet" href="style.css" />
-    <link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
 </head>
 
 <body>
-    <div>
-        <h2>In Progress, this web will be fully available in a few days.</h2> 
+    <div id="home">
+        <p style="background-color:rgba(0,0,0,0.35);">Arnau Falgueras Garcia de Atocha <br /> Game Developer & Programmer</p>
     </div>
+    <div id="navbar">
+        <a href="#aboutme">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div id="aboutme" class="padding">
+        <img id="arnauphoto" src="Assets/Images/arnau_falgueras.png" alt="Arnau Falguera's photo" style="border-radius: 100%;" />
+        <div id="aboutmefontsize">
+            <h2 id="aboutmettitle">About me</h2>
+            <p id="aboutmetext">I'm a game developer and programmer who is currently studying (4th year) a degree of Design and Development of Video Games in the CITM (UPC) in Terrassa. Thanks to this degree I learned a lot about programming
+                (mostly C, C++ & C#) and also a lot about designing videogames. Apart from learning, I also have been able to do some projects both during my time studying in the university and in summer during my free time.</pid="aboutmetext">
+        </div>
+        <div style="clear:right" id="skills">
+            <table width="100%" id="tableskills">
+                <tr>
+                    <th colspan="4">My skills</th>
+                </tr>
+                <tr>
+                    <td colspan="2">Programming skills</td>
+                    <td colspan="2">Language skills</td>
+                </tr>
+                <tr>
+                    <td><label for="c_lang"><img src="Assets/Icons/c_language.png" alt="C language icon" /></label></td>
+                    <td><meter id="c_lang" value="85" min="0" max="100"></meter></td>
+                    <td><label for="catalan">Catalan</label></td>
+                    <td><meter id="catalan" value="100" min="0" max="100"></meter></td>
+                </tr>
+                <tr>
+                    <td><label for="c++_lang"><img src="Assets/Icons/c++_language.png" alt="C++ language icon" /></label></td>
+                    <td><meter id="c++_lang" value="85" min="0" max="100"></meter></td>
+                    <td><label for="spanish">Spanish</label></td>
+                    <td><meter id="spanish" value="100" min="0" max="100"></meter></td>
+                </tr>
+                <tr>
+                    <td><label for="c#_lang"><img src="Assets/Icons/csharp_language.png" alt="C# language icon" /></label></td>
+                    <td><meter id="c#_lang" value="70" min="0" max="100"></meter></td>
+                    <td><label for="english">English</label></td>
+                    <td><meter id="english" value="90" min="0" max="100"></meter></td>
+                </tr>
+                <tr>
+                    <td><label for="flutter_lang"><img src="Assets/Icons/flutter_language.png" alt="Flutter language icon" /></label></td>
+                    <td><meter id="flutter_lang" value="60" min="0" max="100"></meter></td>
+                    <td><label for="japanese">Japanese</label></td>
+                    <td><meter id="japanese" value="2" min="0" max="100"></meter></td>
+                </tr>
+                <tr>
+                    <td><label for="html_lang"><img src="Assets/Icons/html_language.png" alt="HTML language icon" /></label></td>
+                    <td><meter id="html_lang" value="50" min="0" max="100"></meter></td>
+                </tr>
+                <tr>
+                    <td><label for="bash_lang"><img src="Assets/Icons/bash_language.png" alt="Bash language icon" /></label></td>
+                    <td><meter id="bash_lang" value="30" min="0" max="100"></meter></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="projects">
+        <table>
+            <caption><b>Projects</b></caption>
+            <tr>
+                <th colspan="2"> Big Projects</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://citm-vgdd-2018-2022.github.io/TM-Ashes_of_the_Empire/" target="_blank"><img src="Assets/Images/mandalorian.png" alt="Mandalorian: Ashes of the Empire" /></a>
+                </td>
+                <td>
+                    <b style="text-decoration:underline">Mandalorian: Ashes of the Empire</b>
+                    <p>
+                        Mandalorian: Ashes of the Empire is a roguelike game in 3D in which you control Mando and fight against the remnants of the Empire. This game was done in 3 months by all the third-year students of the degree
+                        of Design and Development of Video Games in the CITM (UPC) in Terrassa
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://misioneros-studio.github.io/Mythology-Parade/" target="_blank"><img src="Assets/Images/mythology_parade.jpg" alt="Mythology Parade" /></a>
+                </td>
+                <td>
+                    <b style="text-decoration:underline">Mythology Parade</b>
+                    <p>
+                        Mythology Parade is an RTS game in 2D in which you try to impose your religion (either Greek or Norse) on the other one. This game was done in 3 months by a team of 8 second-year students of the degree
+                        of Design and Development of Video Games in the CITM (UPC) in Terrassa
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://desvj.github.io/Schrodinger_Quest/" target="_blank"><img src="Assets/Images/schrodinger_quest.png" alt="Schrodinger Quest" /></a>
+                </td>
+                <td>
+                    <b style="text-decoration:underline">Schrodinger Quest</b>
+                    <p>
+                        Schrodinger Quest is a platformer in 2D with two levels, in which you advance by moving, jumping and changing your tangibility. This game was done in 3 months by a team of 2 second-year students of the degree
+                        of Design and Development of Video Games in the CITM (UPC) in Terrassa
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://deiridh-studios.github.io/Samurai-Shodown--Project-1/" target="_blank"><img src="Assets/Images/samurai_shodown.png" alt="Samurai Shodown" /></a>
+                </td>
+                <td>
+                    <b style="text-decoration:underline">Samurai Shodown</b>
+                    <p>
+                        Samurai Shodown is a recreation of the fighting game in 2D created by SNK in which you can fight as Ukyo. This game was done in 3 months by a team of 4 first-year students of the degree
+                        of Design and Development of Video Games in the CITM (UPC) in Terrassa
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2"> Small Projects</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://github.com/Arnau77/Flappy_Bird/releases" target="_blank"><img src="Assets/Images/flappy_bird.png" alt="Flappy Bird" /></a>
+                </td>
+                <td>
+                    <b style="text-decoration:underline">Flappy Bird</b>
+                    <p>
+                        Flappy Bird is a recreation of the mobile game created by .Gears in which you control a bird and try to avoid pipes. This game was done in 4 days by me during the summer after my first year of the degree
+                        of Design and Development of Video Games in the CITM (UPC) in Terrassa
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://github.com/daskza19/FlutterAppProject/releases" target="_blank"><img src="Assets/Images/flutter_app_project.png" alt="Flutter App Project" /></a>
+                </td>
+                <td>
+                    <b style="text-decoration:underline">Flutter App Project</b>
+                    <p>
+                        Flutter App Project is a mobile app to save and share with others movies and shows that you have watched, you are watching or you'll watch. This app was done in 2 months by two third-year students of the degree
+                        of Design and Development of Video Games in the CITM (UPC) in Terrassa
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://github.com/Falcas-Games/Kirby-s-Pinball-Land/releases" target="_blank"><img src="Assets/Images/kirby_pinball.png" alt="Kirby's Pinball Land" /></a>
+                </td>
+                <td>
+                    <b style="text-decoration:underline">Kirby's Pinball Land</b>
+                    <p>
+                        Kirby's Pinball Land is a recreation of the pìnball game created by Nintendo in which you use Kirby as a pinball ball. This game was done in 6 days by two second-year students of the degree
+                        of Design and Development of Video Games in the CITM (UPC) in Terrassa
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://github.com/Falcas-Games/Car_Game/releases" target="_blank"><img src="Assets/Images/dodge_race.png" alt="Dodge Race" /></a>
+                </td>
+                <td>
+                    <b style="text-decoration:underline">Dodge Race</b>
+                    <p>
+                        Dodge Race is a racing game in 3D in which you a vehicle with three wheels and try to dodge the obstacles. This game was done in 4 days by two second-year students of the degree
+                        of Design and Development of Video Games in the CITM (UPC) in Terrassa
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://github.com/deiridh-studios/DoraemonProject/releases" target="_blank"><img src="Assets/Images/doraemon_real_game.png" alt="Doraemon The Real Game" /></a>
+                </td>
+                <td>
+                    <b style="text-decoration:underline">Doraemon The Real Game</b>
+                    <p>
+                        Doraemon The Real Game is a shoot'em up game in 2D in which you Doraemon and Nobita and try to avoid the exams and Nobita's mother's sandals. This game was done in 4 days by four first-year students of the degree
+                        of Design and Development of Video Games in the CITM (UPC) in Terrassa
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+       
+    </div>
+
+
+    <div id="contact">
+        <table>
+            <caption><b>Contact</b></caption>
+            <tr>
+                <th>
+                    <a href="https://github.com/arnau77" target="_blank"><img src="Assets/Icons/github_icon.png" alt="Github icon" /></a>
+                </th>
+                <th>
+                    <a href="https://es.linkedin.com/in/arnau-falgueras-baa55a1b2" target="_blank"><img src="Assets/Icons/linkedin_icon.png" alt="Linkedin icon" /></a>
+                </th>
+                <th>
+                    <a href="mailto:arnau7711@hotmail.com" target="_blank"><img src="Assets/Icons/outlook_icon.png" alt="Outlook icon" /></a>
+                </th>
+                <th>
+                    <a href="mailto:arnauf7711@gmail.com" target="_blank"><img src="Assets/Icons/gmail_icon.png" alt="Gmail icon" /></a>
+                </th>
+            </tr>
+            <tr>
+                <td><b>Github:</b><br /> Arnau77</td>
+                <td><b>LinkedIn:</b><br />Arnau Falgueras</td>
+                <td><b>Outlook:</b><br />arnau7711@hotmail.com</td>
+                <td><b>Gmail:</b><br />arnauf7711@gmail.com</td>
+            </tr>
+        </table>
+       
+    </div>
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        var navbar = document.getElementById("navbar");
+
+        var sticky = navbar.offsetTop;
+        function scrollFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
 </body>
 </html>

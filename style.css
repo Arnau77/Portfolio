@@ -1,0 +1,140 @@
+
+body{
+    margin:0;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+caption {
+    font-size: 40px;
+    padding:10px 0px 60px 0px;
+}
+
+#home {
+    background-image: url('Assets/Images/home_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    padding: 14px;
+    font-size: 5vw;
+}
+
+#arnauphoto {
+    width:350px;
+    float:right;
+}
+
+#navbar {
+    clear: right;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0px 14px 0px;
+    text-decoration: none;
+    width: 33.33%;
+    font-size: 130%;
+}
+
+#navbar a:hover {
+    color: #00d8ff;
+    background-color: #4a4a4a;
+    text-decoration: underline;
+}
+
+.sticky{
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+.sticky + div {
+    padding-top: 83px;
+}
+
+.padding{
+    padding:30px 60px 30px 60px;
+}
+
+#aboutmefontsize {
+    font-size: 1.5em;
+}
+
+#aboutmetext {
+    font-family: Palatino Linotype;
+}
+
+#aboutmetitle {
+    padding: 50px 0px 0px 0px;
+}
+
+#skills {
+    text-align: center;
+    font-size: 20px;
+    font-family: Palatino Linotype;
+}
+
+#tableskills th {
+    font-size: 25px;
+    font-family:initial;
+}
+
+#tableskills img{
+    width:100px;
+}
+
+#tableskills th, td {
+    padding: 20px 5px 20px 5px;
+}
+
+#tableskills td{
+    width:25%;
+}
+
+#tableskills meter{
+    float:left;
+}
+
+#tableskills label{
+    float:right;
+}
+
+#projects table {
+    width: 75%;
+    margin: auto;
+}
+
+#projects th {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+#projects td {
+    width: 50%;
+    font-family: Palatino Linotype;
+    font-size: 1.5em;
+}
+
+#contact table {
+    width:50%;
+    margin:auto;
+}
+
+#contact img {
+    width: 100px;
+}
+
+#contact td {
+    width:25%;
+    text-align: center;
+}
