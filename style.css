@@ -10,7 +10,7 @@ img{
 
 caption {
     font-size: 40px;
-    padding:10px 0px 60px 0px;
+    padding:80px 0px 60px 0px;
 }
 
 #home {
@@ -20,13 +20,17 @@ caption {
     background-size: cover;
     text-align: center;
     color: #ffffff;
-    padding: 14px;
+    padding: 80px;
     font-size: 5vw;
 }
 
+#home i{
+    font-size:4vw;
+}
+
 #arnauphoto {
-    width:350px;
-    float:right;
+    width: 350px;
+    float: right;
 }
 
 #navbar {
@@ -62,20 +66,22 @@ caption {
     padding-top: 83px;
 }
 
-.padding{
-    padding:30px 60px 30px 60px;
-}
-
-#aboutmefontsize {
-    font-size: 1.5em;
+#aboutme {
+    padding: 34px 0px 0px 0px;
+    width: 75%;
+    margin: auto;
 }
 
 #aboutmetext {
+    padding: 80px 0px 0px 0px;
     font-family: Palatino Linotype;
+    font-size: 1.5em;
 }
 
-#aboutmetitle {
-    padding: 50px 0px 0px 0px;
+#aboutmettitle {
+    width:100%;
+    text-align:center;
+    font-size: 2.5em;
 }
 
 #skills {
@@ -123,6 +129,10 @@ caption {
     width: 50%;
     font-family: Palatino Linotype;
     font-size: 1.5em;
+}
+
+#secondth {
+    padding: 100px 0px 0px 0px;
 }
 
 #contact table {
