@@ -1,6 +1,7 @@
 
-body{
-    margin:0;
+body {
+    margin: 0;
+    font-family: Georgia;
 }
 
 img{
@@ -22,6 +23,7 @@ caption {
     color: #ffffff;
     padding: 80px;
     font-size: 5vw;
+    font-family: initial;
 }
 
 #home i{
@@ -74,7 +76,6 @@ caption {
 
 #aboutmetext {
     padding: 80px 0px 0px 0px;
-    font-family: Palatino Linotype;
     font-size: 1.5em;
 }
 
@@ -87,12 +88,10 @@ caption {
 #skills {
     text-align: center;
     font-size: 20px;
-    font-family: Palatino Linotype;
 }
 
 #tableskills th {
     font-size: 25px;
-    font-family:initial;
 }
 
 #tableskills img{
@@ -127,7 +126,6 @@ caption {
 
 #projects td {
     width: 50%;
-    font-family: Palatino Linotype;
     font-size: 1.5em;
 }
 
@@ -147,4 +145,5 @@ caption {
 #contact td {
     width:25%;
     text-align: center;
+
 }
