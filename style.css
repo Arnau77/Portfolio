@@ -35,6 +35,21 @@ caption {
     float: right;
 }
 
+#arnauphoto a {
+    font-size: 30px;
+    padding: 4px 40px 4px 40px;
+    border: 3px solid #005dff;
+    text-decoration:none;
+    color:#005dff;
+}
+
+#arnauphoto a:hover{
+    border:5px solid black;
+    text-decoration:underline;
+    color:#000000;
+}
+   
+
 #navbar {
     clear: right;
     overflow: hidden;
