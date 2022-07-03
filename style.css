@@ -9,6 +9,11 @@ img{
     height:auto;
 }
 
+video {
+    max-width: 100%;
+    height: auto;
+}
+
 caption {
     font-size: 40px;
     padding:80px 0px 60px 0px;
@@ -77,6 +82,7 @@ caption {
     position:fixed;
     top:0;
     width:100%;
+    z-index:9;
 }
 
 .sticky + div {
