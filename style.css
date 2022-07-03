@@ -9,9 +9,9 @@ img{
     height:auto;
 }
 
-video {
-    max-width: 100%;
-    height: auto;
+video{
+    max-width:100%;
+    height:auto;
 }
 
 caption {
@@ -106,12 +106,38 @@ caption {
     font-size: 2.5em;
 }
 
+#tableexperience {
+    text-align:center;
+    font-size: 20px;
+}
+
+#tableexperience th{
+    padding-top:15px;
+    width:50%;
+}
+
+#tableexperience .right {
+    text-align: right;
+}
+
+#tableexperience .date{
+    padding-top:0px;
+}
+
+#tableexperience .bold {
+    padding-bottom: 0px;
+}
+
+#tableexperience .left {
+    text-align: left;
+}
+
 #skills {
     text-align: center;
     font-size: 20px;
 }
 
-#tableskills th {
+#tableskills th, #tableexperience th {
     font-size: 25px;
 }
 
