@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: Georgia;
+    font-family: sans-serif;
 }
 
 img{
@@ -36,7 +36,7 @@ caption {
 }
 
 #arnauphoto {
-    width: 350px;
+    width: 250px;
     float: right;
 }
 
@@ -105,7 +105,7 @@ caption {
 
 #aboutmetext {
     padding: 80px 0px 0px 0px;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 #aboutmettitle {
@@ -115,8 +115,9 @@ caption {
 }
 
 #tableexperience {
-    text-align:center;
-    font-size: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 80px 0px 80px 0px;
 }
 
 #tableexperience th{
@@ -161,6 +162,10 @@ caption {
     width:25%;
 }
 
+#tableskills img{
+    width:60px;
+}
+
 #tableskills meter{
     float:left;
 }
@@ -181,7 +186,7 @@ caption {
 
 #projects td {
     width: 50%;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 #secondth {
