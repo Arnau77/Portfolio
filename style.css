@@ -45,7 +45,15 @@ caption {
     padding: 4px 40px 4px 40px;
     border: 3px solid #005dff;
     text-decoration:none;
-    color:#005dff;
+    color:#005dff;    
+    background-color: #bbbdc4;
+}
+
+#arnauphoto a:hover{
+    border:5px solid black;
+    text-decoration:underline;
+    color:#000000;
+    background-color: #a5b8ff;
 }
 
 #arnauphoto a:hover{
