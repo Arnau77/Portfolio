@@ -1,4 +1,22 @@
 
+@media screen and (max-width: 550px){
+    .phoneScreen{
+        display:normal;
+    }
+    .computerScreen{
+        display:none
+    }
+}
+
+@media not screen and (max-width:500px){
+    .phoneScreen{
+        display:none;
+    }
+    .computerScreen{
+        display:normal
+    }
+}
+
 body {
     margin: 0;
     font-family: sans-serif;
