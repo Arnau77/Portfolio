@@ -53,34 +53,6 @@ caption {
     font-size:4vw;
 }
 
-#arnauphoto {
-    width: 250px;
-    float: right;
-}
-
-#arnauphoto a {
-    font-size: 30px;
-    padding: 4px 40px 4px 40px;
-    border: 3px solid #005dff;
-    text-decoration:none;
-    color:#005dff;    
-    background-color: #bbbdc4;
-}
-
-#arnauphoto a:hover{
-    border:5px solid black;
-    text-decoration:underline;
-    color:#000000;
-    background-color: #a5b8ff;
-}
-
-#arnauphoto a:hover{
-    border:5px solid black;
-    text-decoration:underline;
-    color:#000000;
-}
-   
-
 #navbar {
     clear: right;
     overflow: hidden;
@@ -94,7 +66,7 @@ caption {
     text-align: center;
     padding: 14px 0px 14px 0px;
     text-decoration: none;
-    width: 33.33%;
+    width: 25%;
     font-size: 130%;
 }
 
@@ -122,7 +94,7 @@ caption {
 }
 
 #aboutmetext {
-    padding: 80px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     font-size: 1.3em;
 }
 
